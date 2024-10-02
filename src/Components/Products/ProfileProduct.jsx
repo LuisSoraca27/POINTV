@@ -18,20 +18,20 @@ const ProfileProduct = () => {
         { name: 'Vix+', value: 'vix' },
         { name: 'Plex', value: 'plex' },
         { name: 'Crunchyroll', value: 'crunchyroll' },
-        { name: 'EL ProfeNet', value: 'profenet' },
+       // { name: 'EL ProfeNet', value: 'profenet' },
         { name: 'IPTV', value: 'iptv' },
         { name: 'Apple TV', value: 'apple_tv' },
         { name: 'Pornhub', value: 'pornhub' },
         { name: 'Rakuten Viki', value: 'rakuten' },
         { name: 'Universal+', value: 'universal' },
         { name: 'Mubi', value: 'mubi' },
-        { name: 'WASender', value: 'wasender' },
+       // { name: 'WASender', value: 'wasender' },
         { name: 'Disney+ Basico', value: 'Dbasico' },
         { name: 'Disney+ Estándar', value: 'Destandar' },
         { name: 'Disney+ Premium', value: 'Dpremium' },
         { name: 'Regalo', value: 'regalo' },
         { name: 'TVMia', value: 'tvmia' },
-        { name: 'Microsoft 365', value: 'microsoft365' },
+      //  { name: 'Microsoft 365', value: 'microsoft365' },
     ]
 
 

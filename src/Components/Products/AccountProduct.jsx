@@ -22,7 +22,7 @@ const AccountProduct = () => {
         { name: 'Vix+', value: 'vix' },
         { name: 'Plex', value: 'plex' },
         { name: 'Crunchyroll', value: 'crunchyroll' },
-        { name: 'El profeNet', value: 'profenet' },
+       // { name: 'El profeNet', value: 'profenet' },
         { name: 'Tidal', value: 'tidal' },
         { name: 'youtube premium', value: 'youtube' },
         { name: 'Deezer', value: 'deezer' },

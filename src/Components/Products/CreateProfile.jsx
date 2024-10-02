@@ -98,17 +98,17 @@ const CreateProfile = ({ show, onClose, reCharge }) => {
                                         { name: 'Vix+', value: '7' },
                                         { name: 'Plex', value: '8' },
                                         { name: 'Crunchyroll', value: '9' },
-                                        { name: 'El ProfeNet', value: '10' },
+                                      //  { name: 'El ProfeNet', value: '10' },
                                         { name: 'Iptv', value: '11' },
                                         { name: 'Apple TV', value: '19' },
                                         { name: 'Pornhub', value: '20' },
                                         { name: 'Rakuten Viki', value: '22' },
                                         { name: 'Acorn TV', value: '23' },
                                         { name: 'Mubi', value: '24' },
-                                        { name: 'WASender', value: '25' },
+                                       // { name: 'WASender', value: '25' },
                                         { name: 'Regalo', value: '26' },
                                         { name: 'TvMia', value: '28' },
-                                        { name: 'Microsoft 365', value: '31' },
+                                        // { name: 'Microsoft 365', value: '31' },
                                     ]}
                                     onChange={handleSelectChange}
                                     placeholder="Selecciona una plataforma"

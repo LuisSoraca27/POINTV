@@ -121,6 +121,7 @@ const Profiles = () => {
                 case 'star_plus':
                 case 'disney_plus':
                 case 'napster':
+                case 'profenet':
                   return null;
 
                 default:

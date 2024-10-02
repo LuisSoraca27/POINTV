@@ -122,6 +122,7 @@ const Account = () => {
                                 case "Dpremium":
                                 case "star_plus":
                                 case "wasender":
+                                case "profenet":
                                     return null;
                                 default:
                                     return (

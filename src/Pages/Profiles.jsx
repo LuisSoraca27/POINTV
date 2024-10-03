@@ -33,7 +33,7 @@ import { setIsLoading } from '../features/isLoading/isLoadingSlice';
 import ModalProfile from './ModalProfile';
 import { setBalanceThunk } from '../features/balance/balanceSlice';
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
+
 
 const categoryImageMap = {
   'netflix': [netflix, 'Netflix'],
@@ -145,7 +145,7 @@ const Profiles = () => {
               }
             })}
           </div>
-           { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> }
+
         </div>
       }
       {isModalOpen &&

@@ -34,7 +34,6 @@ import napster from '../assets/img/napster.png';
 import tvmia from '../assets/img/tvmia.png';
 import microsoft365 from '../assets/img/microsoft365.png';
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
 
 const Account = () => {
 
@@ -150,7 +149,7 @@ const Account = () => {
                         })
                     }
                 </div>
-                { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> }
+                
             </div>
                 }
             {isModalOpen && <ModalAccount

@@ -7,7 +7,6 @@ import { Image } from 'primereact/image';
 import promo  from '../assets/promo.png';
 import '../style/home.css';
 import ViewNotificationImg from '../Components/Notifications/ViewNotificationImg';
-import CommunitiesPanel from '../Components/CommunitiesPanel';
         
 
 const Home = () => {
@@ -57,7 +56,6 @@ const Home = () => {
                     <Messages ref={msgs} />
                 </div>
             </div>
-            { isCommunityPanelOpen && <CommunitiesPanel onClose={() => setIsCommunityPanelOpen(false)}/> }
         </div>
         </>
     );

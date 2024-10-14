@@ -31,7 +31,7 @@ const ProfileProduct = () => {
         { name: 'Disney+ Premium', value: 'Dpremium' },
         { name: 'Regalo', value: 'regalo' },
         { name: 'TVMia', value: 'tvmia' },
-      //  { name: 'Microsoft 365', value: 'microsoft365' },
+        { name: 'Microsoft 365', value: 'microsoft365' },
     ]
 
 

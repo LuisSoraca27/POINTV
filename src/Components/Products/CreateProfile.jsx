@@ -108,7 +108,7 @@ const CreateProfile = ({ show, onClose, reCharge }) => {
                                        // { name: 'WASender', value: '25' },
                                         { name: 'Regalo', value: '26' },
                                         { name: 'TvMia', value: '28' },
-                                        // { name: 'Microsoft 365', value: '31' },
+                                         { name: 'Microsoft 365', value: '31' },
                                     ]}
                                     onChange={handleSelectChange}
                                     placeholder="Selecciona una plataforma"

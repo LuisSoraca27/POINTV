@@ -12,7 +12,6 @@ import hbo from '../assets/img/hbo.png';
 import crunchyroll from '../assets/img/crunchyroll.webp';
 import paramount_plus from '../assets/img/paramount-plus.png';
 import plex from '../assets/img/plex.png';
-import star_plus from '../assets/img/star-plus.png';
 import vix from '../assets/img/vix.png';
 import iptv from '../assets/img/iptv.webp';
 import universal from '../assets/img/universal_plus.png';
@@ -45,7 +44,6 @@ const categoryImageMap = {
   'paramount_plus': [paramount_plus, 'Paramount+'],
   'vix': [vix, 'Vix+'],
   'plex': [plex, 'Next Movie'],
-  'star_plus': [star_plus, 'Star+'],
   'iptv': [iptv, 'IPTV'],
   'apple_tv': [apple_tv, 'Apple TV'],
   'pornhub': [pornhub, 'Pornhub'],
@@ -122,6 +120,7 @@ const Profiles = () => {
                 case 'disney_plus':
                 case 'napster':
                 case 'profenet':
+                case 'regalo':
                   return null;
 
                 default:

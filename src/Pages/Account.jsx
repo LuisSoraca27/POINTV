@@ -122,6 +122,7 @@ const Account = () => {
                                 case "star_plus":
                                 case "wasender":
                                 case "profenet":
+                                case "iptv":
                                     return null;
                                 default:
                                     return (

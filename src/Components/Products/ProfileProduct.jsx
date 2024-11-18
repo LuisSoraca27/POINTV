@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import ViewProduct from '../ViewProduct';
 import { setProfilesThunk, deleteProfileThunk } from '../../features/user/profileSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -13,27 +13,23 @@ const ProfileProduct = () => {
         { name: 'Netflix', value: 'netflix' },
         { name: 'Max', value: 'hbo_max' },
         { name: 'amazon Prime Video', value: 'amazon_prime' },
-        { name: 'Spotify', value: 'spotify' },
         { name: 'Paramount+', value: 'paramount_plus' },
         { name: 'Vix+', value: 'vix' },
-        { name: 'Plex', value: 'plex' },
         { name: 'Crunchyroll', value: 'crunchyroll' },
-       // { name: 'EL ProfeNet', value: 'profenet' },
+        { name: 'Next Movie', value: 'plex' },
         { name: 'IPTV', value: 'iptv' },
         { name: 'Apple TV', value: 'apple_tv' },
         { name: 'Pornhub', value: 'pornhub' },
         { name: 'Rakuten Viki', value: 'rakuten' },
+        { name: 'WAsender', value: 'wasender' },
         { name: 'Universal+', value: 'universal' },
         { name: 'Mubi', value: 'mubi' },
-       // { name: 'WASender', value: 'wasender' },
         { name: 'Disney+ Basico', value: 'Dbasico' },
         { name: 'Disney+ Estándar', value: 'Destandar' },
         { name: 'Disney+ Premium', value: 'Dpremium' },
-        { name: 'Regalo', value: 'regalo' },
         { name: 'TVMia', value: 'tvmia' },
         { name: 'Microsoft 365', value: 'microsoft365' },
     ]
-
 
     const [categoryPerfiles, setCategoryPerfiles] = useState('netflix');
     const [reload, setReload] = useState(false)
